@@ -6,7 +6,7 @@ conn = sqlite3.connect('hypnovirus.db')
 cursor = conn.cursor()
 
 # Новый пользователь
-username = 'hacker'
+username = 'admin'
 password_hash = '$argon2id$v=19$m=102400,t=2,p=8$uHDCKbwF1PKZFmYks1iJ7g$CPB3khp+jwvckLFRmIg6DUL4ybAeM1TGRGEVX0UBSLU'
 
 # Вставляем
